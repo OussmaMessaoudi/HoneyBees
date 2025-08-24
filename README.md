@@ -1,4 +1,4 @@
-# share2cash
+# HoneyBees
 
 A new Flutter project.
 
