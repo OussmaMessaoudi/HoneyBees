@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "247170758217",
+    "project_id": "honeypot-f45ce",
+    "storage_bucket": "honeypot-f45ce.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247170758217:android:0f64d94c1bb10348b77198",
+        "android_client_info": {
+          "package_name": "com.example.share2cash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247170758217-c4i1ptmbv2052uhog55c64ghrkqt2op9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOtYbjhO3qAHPFFLgXswRwr2TWx5W62QQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247170758217-c4i1ptmbv2052uhog55c64ghrkqt2op9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

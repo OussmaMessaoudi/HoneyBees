@@ -1,0 +1,20 @@
+
+| **1–2** | Project Setup & Auth     | ([reddit.com][1], [madewithflutter.net][2])<br>- Setup routing with `go_router`([reddit.com][1])                                                                                |
+| **3–4** | Login & Signup UI        | - Use `firebase_ui_auth` for prebuilt UI widgets<br>- Implement email/password & phone/password flows \|                                                                        |
+| **5**   | Consent & Onboarding     | - Build 3-slide onboarding with opt-in checkbox<br>- Use a PageView & simple animations (`flutter_animate`)([reddit.com][3])                                                    |
+| **6–7** | Dashboard UI & State     | - Create Dashboard: earnings, GB shared, big toggle<br>- Use state management: `riverpod` or `GetX`<br>- Add charts with `fl_chart` (free & interactive)([solido.github.io][4]) |
+| **8**   | Settings & Preferences   | - Mobile-data toggle, privacy policy links<br>- Use `shared_preferences` for simple storage                                                                                     |
+| **9**   | SDK #1 Integration       | - Integrate PacketSDK (Android AAR via platform channel)<br>- Expose start/stop and callback methods                                                                            |
+| **10**  | SDK #1 Logic & Telemetry | - Track session start/stop and GB usage logs to Firestore                                                                                                                       |
+| **11**  | SDK #2 Integration       | - Integrate Honeygain (or Pawns) similarly<br>- Add toggle to switch active SDK                                                                                                 |
+| **12**  | Withdraw Page            | - Build form for PayPal/IBAN<br>- Submission writes withdrawal record to Firestore                                                                                              |
+| **13**  | Notifications            | - Add `flutter_local_notifications` for reminders                                                                                                                               |
+| **14**  | Polish & Theme           | - Apply dark theme + neon accent (via `Google Fonts`)<br>- Use nice icons, loading skeletons (`skeletonizer`)                                                                   |
+| **15**  | Final Testing & Launch   | - Full QA: auth flows, SDK start/stop, background running, notifications, Firestore data<br>- Prepare store listing assets                                                      |
+
+
+
+
+
+
+refactor the file to not use firebase and change the fpreground service to show and the gb
