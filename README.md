@@ -1,16 +1,24 @@
 # HoneyBees
 
-A new Flutter project.
+HoneyBees is a cross-platform mobile app built with Flutter.  
+It allows users to share their bandwidth in exchange for money.  
+
+## Features
+- Bandwidth sharing via integrated SDK
+- User authentication with Firebase Auth
+- Cloud storage with Firebase Storage
+- Local storage using SharedPreferences
+- Clean and simple user interface
+- Android-first focus
+
+## Technology Stack
+- Flutter
+- Firebase Auth
+- Firebase Storage
+- SharedPreferences
+- Bandwidth Sharing SDK integration
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository  
+   ```sh
+   git clone https://github.com/OussmaMessaoudi/HoneyBees.git
